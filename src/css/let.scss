@@ -1,0 +1,33 @@
+.let{
+  padding: 110px 0;
+  background: linear-gradient(335.73deg, #E3E7F6 12.46%, rgba(227, 231, 246, 0) 84.19%);
+  &__block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 150px;
+  }
+  &__title{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 57px;
+    color: #1A2578;
+  }
+  &__desc{
+    width: 343px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #484C63;
+    margin: 16px 0;
+  }
+  &__btn{
+    padding:14px 32px ;
+    border: 1px solid #BF0830;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #BF0830;
+
+  }
+}

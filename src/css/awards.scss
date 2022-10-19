@@ -1,0 +1,29 @@
+.awards{
+  padding: 73px 0;
+  background: linear-gradient(268.52deg, #E3E7F6 -52.27%, rgba(227, 231, 246, 0) 138.23%);
+  &__block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    column-gap: 158px;
+  }
+  &__title{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 57px;
+    align-items: center;
+    color: #1A2578;
+
+  }
+  &__desc{
+    width: 395px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #484C63;
+    margin-top: 16px;
+
+
+  }
+}

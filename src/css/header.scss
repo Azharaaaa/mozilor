@@ -1,0 +1,29 @@
+.header {
+  padding: 24px 0;
+  background: linear-gradient(252.91deg, #E3E7F6 3.68%, rgba(227, 231, 246, 0) 97.82%);
+  &__nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__menu{
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Europa',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #646A89;
+  }
+  &__btn{
+    padding: 14px 32px;
+    background: #BF0830;
+    border-radius: 6px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+
+  }
+}

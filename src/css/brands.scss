@@ -1,0 +1,25 @@
+.brands{
+  padding: 90px 0 128px;
+  border-bottom:  1px solid rgba(197, 203, 226, 0.5);
+
+  &__title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 57px;
+    text-align: center;
+    color: #1A2578;
+
+  }
+  &__icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 78px 0 108px;
+
+
+  }
+
+}
+.red{
+  color: #BF0830;
+}

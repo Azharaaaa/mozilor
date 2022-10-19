@@ -1,0 +1,25 @@
+.line{
+  padding: 106px 0 108px;
+  &__head-title{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 57px;
+    text-align: center;
+    color: #1A2578;
+  }
+  &__head-desc{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #484C63;
+   margin: 16px 0 97px;
+  }
+  &__block{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    &-card{
+     max-width: calc(50% - 16px);
+    }
+  }
+}
